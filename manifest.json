@@ -1,0 +1,21 @@
+{
+    "name": "Diary : Easy Note",
+    "version" : "1.0.3",
+    "manifest_version":3,
+
+    "action":{
+        "default_popup":"index.html",
+        "default_icon" :"notelogo.png",
+        "default_title": "My Diary"
+    },
+    "description": "This extension helps to take Notes",
+   
+    "icons": {
+        "128":"notelogo.png",
+		"64": "notelogo64.png",
+        "48": "notelogo48.png",
+        "32": "notelogo32.png"
+    },
+    "permissions":[]
+
+}

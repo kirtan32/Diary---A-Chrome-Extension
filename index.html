@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Note</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="header">
+
+            <div id="home" title="All Notes" class="home"></div>
+            <div id="logo" title="E-Diary"></div>
+            <div id="addnote" title="Add Note" class="addnote"></div>
+        </div>
+        <div id="content">
+            <div class="contentbox-wrapper" class="contentbox">
+                <div id="contentLeft" class="contentbox1" >
+                    <div id="search">
+                        <input type="text" id="searchItem" placeholder="Search..." autocomplete="off"/>
+                        <span id="searchBtn"></span>
+                        <span id="clearBtn"></span>
+                    </div>
+                    <div class="list" id="tasklist">
+                        <div class="note" id="0">
+                            <span class="delete" delid="0" title="Delete"></span>
+                            <span class="title">hello ji dkfvnzfv s fv sa fv as fvsafv</span>
+                            <span class="date">APR21-MON</span>
+                            <span class="sort" title="Move"></span>
+                        </div>
+                        
+                        <div class="note" id="1">
+                            <span class="delete" title="Delete"></span>
+                            <span class="title">hello ji</span>
+                            <span class="date">APR21-MON</span>
+                            <span class="sort" title="Move"></span>
+                        </div>
+                        <div class="note" id="2" style="background-color: #08E8DE;">
+                            <span class="delete" title="Delete"></span>
+                            <span class="title">hello ji</span>
+                            <span class="date">APR21-MON</span>
+                            <span class="sort" title="Move"></span>
+                        </div>
+                        <h2 style="color:gray;">No Notes Available</h3>
+                    </div>
+                    <div id="footer">
+                        <button id="footerLeft" title="Edit">Edit</button>
+                        <div id="footerRight" title="About"></div>
+                    </div>
+                </div>
+                <div id="contentRight" class="contentbox2" >
+                    <div id="notePage">
+                        <div id="noteTitleBar">
+                            <div id="titleColor">
+                                <button id="color1" class="ColorButton" style="background-color: #FFF000;"></button>
+                                <button id="color2" class="ColorButton" style="background-color: #08E8DE;"></button>
+                                <button id="color3" class="ColorButton" style="background-color: #66FF00;"></button>
+                                <button id="color4" class="ColorButton" style="background-color: #FF007F;"></button>
+                                <button id="color4" class="ColorButton" style="background-color: #FF007F;"></button>
+                                <button id="color4" class="ColorButton" style="background-color: #FF007F;"></button>
+                                
+                                <button id="color5" class="ColorButton" style="background-color: #9999CC;"></button>
+                            </div>
+                            <div id=noteTitle>
+                                <input type="text" id="noteCaption" class="noteCaption" maxlength="50" size="50" placeholder="UNTITLED NOTE" />
+                            </div>
+                            <hr id="hr1">
+                            <hr id="hr2">
+                        </div>
+                        <div id="noteContent">
+                            <textarea id="noteContext" class="noteContext" placeholder="Begin typing here..."></textarea>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
